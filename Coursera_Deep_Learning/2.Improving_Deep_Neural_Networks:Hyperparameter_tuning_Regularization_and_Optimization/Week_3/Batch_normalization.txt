@@ -1,5 +1,0 @@
-Batch_normalization could speed up train speed.
-Inside of it, is to normalize the Z on every mini-batch.
-It would affect some regularization like dropout, it adds some noise to each hidden layer's activations.
-Choose large mini-batch size could reduce the regularization.
-At test time estimate using a exponentially weighted average of mu and sigma that keeped track during training
